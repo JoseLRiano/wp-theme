@@ -1,0 +1,67 @@
+ html{
+     margin: 0;
+     padding: 0;
+     background-color: #585858;
+    }
+body{
+    font-family:Georgia;
+    font-weight: normal;
+    background: #F6F6F6;
+    margin:0 auto;
+    width: 70%;
+    font-size: 1em;
+    padding: 1em 50px;
+    border-bottom: 10px solid gold;
+    }
+    .a{
+        text-align: center;
+        margin: auto;
+      }
+aside {
+	padding: 1em;
+	background:rgb(83, 104, 138);
+	color: white;
+	margin-bottom: 1em;
+}
+aside.sports {
+	font: .8em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background:#3278D0;
+	padding: 25px;
+	padding-top: 1em;
+	float: right;
+	width: 300px;
+	margin-left: 1em;
+}
+#tabs{
+	height:30px;
+	overflow:hidden;
+}
+#tabs > ul{
+	font: 1em;
+	list-style:none;
+}
+#tabs > ul > li{
+	margin:0 2px 0 0;
+	padding:7px 10px;
+	display:block;
+	float:left;
+	color:#FFF;
+	border-top-left-radius:4px;
+	border-top-right-radius: 4px;
+	background: #CCC;
+}
+
+#tabs{
+	height:30px;
+	overflow:hidden;
+}
+
+#tabs > ul > li:hover{
+	background: white; 
+	cursor:pointer;
+}
+
+#tabs > ul > .active{
+	background: white; /* old browsers */
+	cursor:pointer;
+}
